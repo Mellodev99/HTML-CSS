@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(107, 163, 145);
+            margin: 0px;
+            
+        }
+        header{
+           
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(141, 141, 141);
+            padding: 3px;
+           box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.678);
+
+
+            
+        }
+        nav > a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav >a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article aside{
+            background-color: rgb(153, 153, 153);
+        }
+        footer p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            border-radius: 50%;
+            margin: 10px auto;
+            margin-top: 10px;
+            box-shadow: inset 10px 10px 20px 5px rgba(218,121,209,0.459);
+            animation: float 3s ease-in-out infinite;
+
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esporte Política Tecnologia</p>
+
+         </section>
+         <section id="notícias">
+            <article>
+                <h2>Noticia sobre jacobina-ba</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae voluptates aliquid debitis reiciendis ipsa adipisci minus minima, voluptatibus tempore omnis esse enim corrupti ducimus necessitatibus modi totam laborum similique. Ducimus?</p>
+                <aside>
+                    <p>Artigo escrito por Luan Melo </p>
+                </aside>
+
+            </article>
+            <article>
+
+            </article>
+         </section>
+    </main>
+    <footer>
+
+    <p>Desenvolvido por Luan melo</p>
+
+    </footer>
+    <div id="bola">
+        
+    </div>
+
+</body>
+</html>

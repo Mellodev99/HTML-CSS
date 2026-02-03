@@ -1,0 +1,57 @@
+@charset "UTF-8"
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, #021740, #173673);
+}
+main{
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #f2f1f063;
+}
+
+p{
+    text-align: justify;
+}
+h1{
+    color: #173673;
+    text-shadow: 1px 1px 2px #0b19368e ;
+    text-align: center;
+    text-shadow: 1px 1px 2px #0b1b3b98;
+}
+h2{
+    color: #657BA6;
+}
+/*
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+        body{
+            
+        background-image: linear-gradient(to right, #74ebd5, #acb6e5);
+        }
+        main{
+            background-color:white
+            width: 600px;
+            padding: 15px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px #f2f1f063;
+        }
+        
+        h1{
+            text-align: center;
+            font-family:great vibes, cursive;
+            font-size: 3em;
+        }
+        h2{
+            text-align: center;
+            font-family: great vibes, cursive;
+            font-size: 3em;
+        }
+    </style>*/
