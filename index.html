@@ -1,11 +1,134 @@
-<section>
-  <h2>📘 Exercícios</h2>
-  <p>Lista completa de exercícios do curso.</p>
-  <a href="Exercicios/">Acessar exercícios</a>
-</section>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML & CSS • Estudos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<section>
-  <h2>🏆 Desafios</h2>
-  <p>Desafios práticos para treinar HTML e CSS.</p>
-  <a href="Desafios/">Acessar desafios</a>
-</section>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #1f4037, #99f2c8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        main {
+            background: #fff;
+            width: 90%;
+            max-width: 900px;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+        }
+
+        header h1 {
+            text-align: center;
+            color: #1f4037;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            text-align: center;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            margin-bottom: 15px;
+            color: #333;
+            border-left: 6px solid #1f4037;
+            padding-left: 10px;
+        }
+
+        ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+        }
+
+        a {
+            display: block;
+            text-decoration: none;
+            background: #1f4037;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            background: #145a32;
+            transform: translateY(-3px);
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.85em;
+            color: #777;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+<main>
+
+    <header>
+        <h1>📚 HTML & CSS</h1>
+        <p>Meus estudos e exercícios do Curso em Vídeo</p>
+    </header>
+
+    <section>
+        <h2>📝 Exercícios</h2>
+        <ul>
+            <li><a href="Exercicios/ex001/">Exercício 01</a></li>
+            <li><a href="Exercicios/ex004/">Exercício 04</a></li>
+            <li><a href="Exercicios/ex005/">Exercício 05</a></li>
+            <li><a href="Exercicios/ex007/">Exercício 07</a></li>
+            <li><a href="Exercicios/ex008b/">Exercício 08b</a></li>
+            <li><a href="Exercicios/ex009/">Exercício 09</a></li>
+            <li><a href="Exercicios/ex010/">Exercício 10</a></li>
+            <li><a href="Exercicios/ex011/">Exercício 11</a></li>
+            <li><a href="Exercicios/ex012/">Exercício 12</a></li>
+            <li><a href="Exercicios/ex013/">Exercício 13</a></li>
+            <li><a href="Exercicios/ex014/">Exercício 14</a></li>
+            <li><a href="Exercicios/ex015/">Exercício 15</a></li>
+            <li><a href="Exercicios/ex016/">Exercício 16</a></li>
+            <li><a href="Exercicios/ex017/">Exercício 17</a></li>
+            <li><a href="Exercicios/ex018/">Exercício 18</a></li>
+            <li><a href="Exercicios/ex019/">Exercício 19</a></li>
+            <li><a href="Exercicios/ex020/">Exercício 20</a></li>
+            <li><a href="Exercicios/ex021/">Exercício 21</a></li>
+            <li><a href="Exercicios/ex022/">Exercício 22</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>🚀 Desafios</h2>
+        <ul>
+            <li><a href="Desafios/">Ver desafios</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        © 2026 • Mellodev99 • GitHub Pages
+    </footer>
+
+</main>
+</body>
+</html>
