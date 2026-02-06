@@ -1,3 +1,4 @@
+
  @charset "UTF-8";
 
 
@@ -8,7 +9,7 @@
 
  :root{
    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
-   --fonte2: 'Passion one', cursive;
+   --fonte2: 'Passion One', cursive;
    --fonte3: "Sriracha", cursive;
  }
 
@@ -24,6 +25,7 @@ html, body{
 }
 
  body{
+   
    background-attachment: fixed;
    background-size: cover;
  }
@@ -63,7 +65,7 @@ section.normal{
 
  section.imagem{
    background-size: cover;
-   background-position: 100%;
+   background-position: right center
    background-repeat: no-repeat;
    background-color: rgb(54, 42, 42);
    box-shadow: inset 6px 6px 13px 0px black;
@@ -85,7 +87,7 @@ section.normal{
    text-align: center;
    padding: 10px;
 }
-section.image > p {
+section.imagem > p {
    padding: 5px;
    display: inline-block;
    background-color: rgba(53, 38, 38, 0.644);
