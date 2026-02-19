@@ -4,40 +4,68 @@
 *{
     padding: 0px;
     margin: 0px;
-
-}
-html, body{
-    background-color: lightblue;  
     font-family: Arial, Helvetica, sans-serif;
 }
-menu ul li {
- text-decoration: none;
- display: inline-block;
- padding: 5px;
- background-color: lightgray;
+
+html, body{
+    background-color: lightblue;  
 }
-menu li:hover{
+menu{
+    display:none;
+}
+
+menu > ul > li > a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: lightgray;
+    color:white;
+    text-align:center;
+    border-top: 2px solid gray;
+}
+menu > ul > li a:hover{
     
-    background-color: lightgreen;
+    background-color: gray;
 }
-h1{
+header h1{
     text-align: center;
-    color: rgb(120, 62, 255);
+    padding: 10px;
 }
 header{
-    background-color: rgb(206, 206, 206);
+    background-color:gray;
+}
+i#burguer{
+    background-color: rgb(36, 36, 36);
+    display: block;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+
+}
+i#burguer:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255); 
+
 }
 
 main{
-    background-color: rgb(153, 125, 125);
+    background-color: rgb(255, 255, 255);
     text-align: center;
-    width: 50%;
+    width: 90vw;
     margin: auto;
-    border-radius: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
 }
-main h2{
-    color: black;
-}
+
  main p{
  color: black;
+ }
+ article h2 {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
+
+
  }
