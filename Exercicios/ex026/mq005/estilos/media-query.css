@@ -14,11 +14,6 @@
 
 
 
-
-    
-
-
-
 @media screen and (min-width: 768px){
    
     i#burguer{
@@ -29,6 +24,9 @@
     }
     menu > ul > li{
         display: inline-block;
+    }
+    main{
+        width: 768px;
     }
 
 }
